@@ -1,0 +1,56 @@
+Test Cases of Login Functionality for Leave Management System for GNX Studio
+
+
+Test Case 1: Login Functionality - Valid Credentials
+
+Test Case ID	TC001
+Test Case Title	Login Functionality - Valid Credentials
+Test Case Description	
+Verify that the login functionality accepts valid credentials and grants access to the user.
+
+Test Steps	
+1.Launch the website.
+2.Wait for the website to load and open to login page directly.
+3.Enter the valid username "testuser" in the username field.
+4.Enter the valid password "Password123" in the password field.
+5.Choose the valid position "Admin/Manager/Employee" in the position field.
+6.Click on the "Login" button to submit the credentials.
+
+Test Data	
+1.Valid username: "testuser"
+2.Valid password: "Password123"
+3.Valid position: "Admin/Manager/Employee"
+
+Expected Results	
+The user should be granted access to the system, and the dashboard page should be displayed with relevant user-specific information.
+Actual Results	
+User successfully logged in and directed to the dashboard page.
+Pass / Fail	Pass
+
+
+Test Case 2: Login Functionality - Invalid Credentials
+
+Test Case ID	TC002
+Test Case Title	Login Functionality - Invalid Credentials
+Test Case Description	
+Verify that the login functionality displays an error message for invalid credentials
+
+Test Steps	
+1.Launch the website.
+2.Wait for the website to load and open to  login page.
+3.Enter an invalid username in the username field (e.g., "invaliduser").
+4.Enter an invalid password in the password field (e.g., "wrongpassword").
+5.Choose the invalid position "Admin/Manager/Employee" in the position field.
+6.Click on the "Login" button to submit the credentials.
+
+Test Data	
+1.Invalid username: "invaliduser"
+2.Invalid password: "wrongpassword"
+3.Invalid position: "Admin/Manager/Employee"
+
+Expected Results	
+An error message should be displayed indicating that the login credentials are incorrect.
+Actual Results	
+Error message displayed: "Invalid username or password. Please try again."
+Pass / Fail	Pass
+

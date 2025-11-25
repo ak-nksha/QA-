@@ -75,14 +75,15 @@ Performance test report
 Test Environments
 The following test environments will be used:
 
-●Development environment
-●Test environment
-●Production environment
+● Development environment
+● Test environment
+● Production environment
 
 
 The operating systems and versions that will be used for testing, such as Windows 10, macOS, or Linux.
 
 The browsers and versions that will be tested, such as Google Chrome, Mozilla Firefox, or Microsoft Edge.
+
 The device types and screen sizes that will be used for testing, such as desktop computers, laptops, tablets, and smartphones.
 
 The network connectivity and bandwidth that will be available for testing, such as Wi-Fi, cellular, or wired connections.
@@ -91,21 +92,21 @@ The hardware and software requirements for running the test cases, such as a spe
 
 The security protocols and authentication methods that will be used to access the test environment, such as passwords, tokens, or certificates.
 
-
 The access permissions and roles of the team members who will be using the test environment, such as testers, developers, or stakeholders.
 
 
-Name	Env url
-QA	demo.opencart.com
+Name	         Env url
+QA	        demo.opencart.com
 Pre Prod	preprod.opencart.com
-UAT	uat.opencart.com
-Prod	app.opencart.com
+UAT	        uat.opencart.com
+Prod	    app.opencart.com
 
 
  Windows 10 – Chrome, Firefox and Edge
-• Mac OS – Safari Browser
-• Android Mobile OS – Chrome
-• iPhone Mobile OS - Safari
+ Mac OS – Safari Browser
+ Android Mobile OS – Chrome
+ iPhone Mobile OS - Safari
+
 
 Defect Reporting Procedure
 
@@ -124,30 +125,40 @@ The communication channels and frequencies for updating stakeholders on the prog
 The metrics and metrics that will be used to measure the effectiveness of the defect reporting process, such as the number of defects found, the time taken to resolve them, and the percentage of defects that were successfully fixed.
 
 
-Defect Process	POC
-New Frontend	Devesh
-Backend	Sonal
-Dev Ops	Prajeeth
 
 
 
 Tools - JIRA
+
+
 Test Strategy
 
 
 Component	Description
 Objectives	List the overall goals and objectives of the testing process.
 Test Levels	Specify the testing levels (unit, integration, system, acceptance) and their respective purposes, scopes, and objectives.
+
 Test Types	List the types of testing to be conducted (functional, non-functional, regression) and their purposes and scopes.
+
 Test Techniques	Detail the testing techniques to be used for each test type (black-box, white-box, grey-box) and whether manual, automated, or a combination of both approaches will be employed.
+
 Test Deliverables	List the test artifacts to be produced during the testing process (test plans, test cases, test scripts, test reports).
+
 Test Environment	Describe the hardware, software, and network configurations required for testing, including target browsers, devices, and operating systems, as well as any tools or frameworks to be used.
+
 Test Schedule	Provide an estimate of the time needed for each testing phase, taking into account resource availability, dependencies, and project deadlines.
+
 Resource Allocation	Identify team members responsible for different testing tasks and outline their roles and responsibilities.
+
 Risk Management	List potential risks and challenges that may arise during the testing process, along with contingency plans to address them.
+
 Test Exit Criteria	Define the criteria that must be met before testing can be considered complete, such as a specific percentage of test cases executed, a certain level of test coverage, or a maximum number of unresolved defects.
 
 
+
+
+
+Step 1:
 The first step is to create test scenarios and test cases for the various features in
 Scope.
 
@@ -165,8 +176,8 @@ o Exploratory Testing
 • We prioritize the Test Cases
 
 
-Step 2: Our testing procedure when we receive a request for testing:
-
+Step 2: 
+Our testing procedure when we receive a request for testing:
 
 • First, we'll conduct smoke testing to see if the various and
 important functionalities of the application are working.
@@ -194,19 +205,17 @@ o Usability Testing, Functionality & UI Testing
 
 
 
-Step3 –  We will follow the below best practices to make our Testing better:
+Step3:
+We will follow the below best practices to make our Testing better:
 
 • Context Driven Testing – We will be performing Testing as per the context
 of the given application.
 
-
 • Shift Left Testing – We will start testing from the beginning stages of the
 development itself, instead of waiting for the stable build.
 
-
 • Exploratory Testing – Using our expertise we will perform Exploratory
 Testing, apart from the normal execution of the Test cases.
-
 
 • End to End Flow Testing – We will test the end-to-end scenario which
 involve multiple functionalities to simulate the end user flows.
@@ -289,4 +298,5 @@ Team will send different types of documents for Client Approval like below:
 • Test Cases
 • Reports
 Testing will only continue to the next steps once these approvals are done
+
 	
